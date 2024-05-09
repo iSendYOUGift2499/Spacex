@@ -1,0 +1,35 @@
+.launch-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; 
+  }
+  
+  .launch-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #b8f317;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 3);
+  }
+  
+  .launch-card h2 {
+    margin-top: 0;
+  }
+  
+  .launch-card p {
+    margin: 5px 0;
+  }
+  
+  .launch-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+.grid-container {
+    background-color: #f5deb3;
+  }
+  
+  .launch-card {
+    background-color: #ff7f50; 
+  }
+    
